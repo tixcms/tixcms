@@ -1,0 +1,18 @@
+body {
+    background: url(../images/furley_bg.png);
+}
+.form-horizontal .control-label {
+    width: 50px;
+    text-align: right;
+}
+.form-horizontal .controls {
+    margin-left: 0;
+}
+
+.modal {
+    width: 360px !important;
+    margin-left: -180px;
+}
+.container {
+    text-align: center;
+}

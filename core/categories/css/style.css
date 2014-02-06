@@ -1,0 +1,16 @@
+.table-tree {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.table-tree .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 5px;
+}
+.table-tree .element {
+    padding: 8px;
+    padding-left: 0;
+    border-top: 1px solid #DDD;
+}

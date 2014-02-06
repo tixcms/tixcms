@@ -1,0 +1,12 @@
+.nav-items-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item-inner {
+    padding: 8px 0;
+}
+.nav-item {
+    border-top: 1px solid #ddd;
+    line-height: 20px;
+}

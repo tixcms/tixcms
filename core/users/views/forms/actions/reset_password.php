@@ -1,0 +1,1 @@
+<input type="submit" name="submit" value="Восстановить" class="btn btn-primary" />

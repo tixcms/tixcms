@@ -1,0 +1,24 @@
+RewriteEngine on
+
+# Отключаем вывод информации о сервере
+ServerSignature Off
+php_flag expose_php Off
+
+# remove www
+RewriteCond %{HTTP_HOST} ^www\.(.+)
+RewriteCond %{HTTPS}s/%1 ^(on(s)|offs)/(.+)
+RewriteRule ^ http%2://%3%{REQUEST_URI} [L,R=301]
+
+# add www
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+Options All -Indexes

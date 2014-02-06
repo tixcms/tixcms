@@ -1,0 +1,6 @@
+.settings-list {
+    padding-right: 0 !important;
+}
+.settings-list > li > a {
+    padding: 8px 15px !important;
+}

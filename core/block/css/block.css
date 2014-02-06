@@ -1,0 +1,10 @@
+.blocks-items li a:hover, .blocks-items li.active a {
+    background: #08c !important;
+    color: white !important;
+}
+.blocks-items-preview {
+    
+}
+.block-item-description-wrap {
+    display: none;
+}

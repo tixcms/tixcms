@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+}
+.wrap {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    min-width: 1000px;
+    background: url(../images/furley_bg.png);
+}
+body p {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+.content {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 1280px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+}
+footer .footer-wrap {
+    padding: 0 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+i[class^=icon] {
+    color: black;
+    font-size: 14px;
+}
+.breadcrumb {
+    background-color: #fff;
+}
+.breadcrumb .icon-home {    
+    font-size: 16px;
+}
+.navbar-inner .container-fluid {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.nav-list li.active i {
+    color: white;
+}
+.nav-tabs li.active a {
+    background: url(../images/furley_bg.png);
+}
+.nav-tabs li.active a
+textarea {
+    resize: none;
+}
+.page-header {
+    margin-top: 0;
+    padding: 0;
+}
+.page-header h3 {
+    margin-bottom: 5px;
+}
+.page-header .header-actions {
+    float: right;
+}
+.page-header .header-actions li {
+    display: inline-block;
+}
+.page-header .header-actions {
+    list-style: none;
+}
+table .actions {
+	margin:0 5px 0;
+	padding:0;
+}
+table .actions > li {
+	background:none;
+	list-style:none;
+	display:inline-block;
+	margin-right:5px;
+	padding:0;
+}
+.ie7 table .actions > li {
+	display:block;
+	float:left;
+}
+table .actions > li > a {
+	display:block;
+	height:16px;
+	width:16px;
+	text-indent:-9999em;
+}
+table .actions > li:last-child { margin-right:0; }
+table .actions .view { background:url('../images/icons/icon_table_view.png') no-repeat 0 0; }
+table .actions .edit { background:url('../images/icons/icon_table_edit.png') no-repeat 0 0; }
+table .actions .delete { background:url('../images/icons/icon_table_delete.png') no-repeat 0 0; }
+table .actions .approve { background:url('../images/icons/icon_table_approve.png') no-repeat 0 0; }
+table .actions .download { background:url('../images/icons/download.png') no-repeat 0 0; }
+table .actions .update { background:url('../images/icons/update.png') no-repeat 0 0; }
+
+.form-horizontal input[type=text], 
+.form-horizontal input[type=password],
+.form-horizontal textarea {
+    width: 400px;
+}
+.form-horizontal textarea {
+    min-height: 80px;
+}
+.link {
+    color: #08C;
+    cursor: pointer;
+    border-bottom: 1px dashed #08C;
+}
+.wysiwyg {
+    width: 500px !important;
+    min-height: 180px !important;
+}
+hr {
+    border-top-color: #ddd;
+}
+.page-header {
+    border-bottom-color: #ddd;
+}
+.table {
+    background: #fafafa;
+}
+.icon-external-link {
+    font-size: 8px !important;
+    vertical-align: top;
+    margin-top: -4px;
+    display: inline-block;
+}
+.well {
+    background: #fafafa;
+    border: 1px solid #ddd;
+}
+.page-header {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.page-header h2 {
+    line-height: 24px;
+    font-weight: normal;
+}
+.page-header h3 {
+    margin-bottom: 5px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 22px;
+}
+.page-header .header-actions {
+    float: right;
+}
+.page-header .header-actions li {
+    display: inline-block;
+}
+.page-header .header-actions {
+    list-style: none;
+}

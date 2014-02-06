@@ -1,0 +1,17 @@
+.socials-list-icon {
+    display: inline-block;
+    width: 16px;
+    margin-right: 5px;
+}
+.social-icon-vk {
+    background: url(http://vk.com/images/faviconnew.ico) no-repeat;
+}
+.social-icon-odnoklassniki {
+    background: url(http://www.odnoklassniki.ru/favicon.ico?v2) no-repeat;
+}
+.social-icon-facebook {
+    background: url(http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico) no-repeat;
+}
+.social-icon-mailru {
+    background: url(http://img.mail.ru/mail/ru/images/mywap/favicon.ico) no-repeat;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #111;
+}
+
+/** разметка */
+.wrap {
+    background: url('../img/climpek.png');
+    padding-bottom: 40px;
+}
+.container {
+    /*width: 1180px;*/
+    /*margin-bottom: 40px;*/
+}
+.well {
+    padding-top: 10px;
+}
+.header {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+.header .nav li a:hover {
+    background: none;
+    text-decoration: underline;
+}
+.header-nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.header-logo {
+    text-align: center;
+    margin-left: 0px !important;
+    padding-top: 25px;
+}
+.header-logo a {
+    margin-left: 10px;
+}
+.index-slider {
+    margin-bottom: 20px;
+}
+
+/** components **/
+/* breadcrumbs */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+.breadcrumb i {
+    color: #000;
+}
+.center {
+    text-align: center;
+}
+
+/** footer **/
+.footer {
+    background-color: #111;
+    padding: 10px 0;
+    color: #fff;
+}
+.footer .nav h4 {
+    font-weight: normal;
+}
+.footer .nav li a {
+    padding-top: 0;
+}
+.footer .nav li a:hover, .footer .nav li.active a {
+    background: none;
+    text-decoration: underline;
+}
+.footer a {
+    color: #fff;
+}
+.footer-section-1 {
+    margin-bottom: 10px;
+}
+
+/** Typography **/
+h1, h2, h3, h4 {
+    font-weight: normal;
+} 
+.page-header {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.page-header h2 {
+    line-height: 24px;
+    font-weight: normal;
+}
+.page-header h3 {
+    margin-bottom: 5px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 22px;
+}
+.page-header .header-actions {
+    float: right;
+}
+.page-header .header-actions li {
+    display: inline-block;
+}
+.page-header .header-actions {
+    list-style: none;
+}
+
+.page-content h1, .page-content h2, .page-content h3, .page-content h4 {
+    font-weight: normal;
+}
+.btn-small {
+    padding: 0 5px;
+    display: inline;
+}
+.comments-item {
+    background: #fafafa;
+}
+.social a {
+    text-decoration: none;
+}
+
+.carousel .icon {
+    font-size: 40px;
+}

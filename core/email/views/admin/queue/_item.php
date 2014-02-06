@@ -1,0 +1,20 @@
+<tr>
+    <td>
+        <?=$item->from?>
+    </td>
+    <td>
+        <?=$item->to?>
+    </td>
+    <td>
+        <?=$item->subject?>
+    </td>
+    <td>
+        <?=$item->message?>
+    </td>
+    <td>
+        <?=Helpers\Date::nice($item->created_on)?>
+    </td>
+    <td>
+        <?=$item->priority?>
+    </td>
+</tr>

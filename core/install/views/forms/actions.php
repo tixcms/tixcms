@@ -1,0 +1,1 @@
+<input type="submit" name="submit" value="Далее" class="btn btn-primary" />
