@@ -1,7 +1,5 @@
 <?php
 
-include(APPPATH . '../core/purifier/libraries/HTMLPurifier.auto.php');
-
 class Purifier extends HTMLPurifier 
 {
     function __construct($type = 'default')

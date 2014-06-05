@@ -2,3 +2,4 @@ application/config/development
 application/config/production
 application/config/database.php
 application/config/installed
+vendor

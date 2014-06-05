@@ -218,6 +218,8 @@ if (defined('ENVIRONMENT'))
  *
  */
  
+require 'vendor/autoload.php';
+ 
 require_once BASEPATH.'../core/tix/libraries/MX/CodeIgniter.php';
 
 
