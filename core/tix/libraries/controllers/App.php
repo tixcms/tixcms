@@ -89,8 +89,6 @@ class App extends Base
         
         list($uri) = explode('?', $_SERVER['REQUEST_URI']);
         
-        
-        
         return substr($uri, -1) != '/';
     }
     
